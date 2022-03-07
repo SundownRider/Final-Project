@@ -12,7 +12,7 @@ Nmap scan results for the Target 1 machine reveal the below services and OS deta
 
 Nmap Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
-<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_1.png" width=60% height=60%>
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_1.png" width=60% height=60%>
 
 This scan identifies the services below as potential points of entry:
 
