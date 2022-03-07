@@ -102,12 +102,6 @@ Target 1
 - **Purpose**: Vulnerable VM Running Wordpress
 - **IP Address**: 192.168.1.110
 
-Target 2
-
-- **Operating System**: Linux (Ubuntu)
-- **Purpose**: Vulnerable VM Running Wordpress
-- **IP Address**: 192.168.1.115
-
 ### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#description-of-targets)Description of Targets
 
 Target 1 (192.168.1.110)
