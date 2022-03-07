@@ -88,11 +88,11 @@ Location: /var/www
 
 Web Root: /var/www/html
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_4.png" width=60% height=60%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_4.png" width=70% height=70%>
 
 3.3 Enumerate The Configuration File
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_3.png" width=60% height=60%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_3.png" width=40% height=40%>
 
 Credentials Found - root:R@v3nSecurity
 
