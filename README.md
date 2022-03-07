@@ -121,7 +121,7 @@ Excessive HTTP Errors is implemented as follows:
 - **Vulnerability Mitigated**: Directory Brute Forcing
 - **Reliability**: High Reliability
 
-<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/HTTP_Errors.png" width=50% height=50%>
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/HTTP_Errors.png" width=70% height=70%>
 
 #### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#name-of-alert-2)HTTP Request Size Monitor
 
@@ -132,7 +132,7 @@ HTTP Request Size Monitor is implemented as follows:
 - **Vulnerability Mitigated**: HTTP Request Smuggling
 - **Reliability**: Medium Reliability
 
-<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/HTTP_Size.png" width=50% height=50%>
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/HTTP_Size.png" width=70% height=70%>
 
 #### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#name-of-alert-3)CPU Usage Monitor
 
@@ -143,5 +143,5 @@ CPU Usage Monitor is implemented as follows:
 - **Vulnerability Mitigated**: TODO
 - **Reliability**: Medium Reliability
 
-<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/CPU.png" width=50% height=50%>
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/CPU.png" width=70% height=70%>
 
