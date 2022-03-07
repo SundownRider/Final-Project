@@ -14,7 +14,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 Nmap Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
-![Red 1](file:///Images/Red Team/Red_1.png)
+![Red 1](https://github.com/SundownRider/Final-Project/commit/0684bf192f7e974bab768cdc7246cdb88e4caed0#diff-89c0bed4a6f5abd11749380d233e4e0558c367e4455421fe9b5e79ba3199537e)
 
 This scan identifies the services below as potential points of entry:
 
