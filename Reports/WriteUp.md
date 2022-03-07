@@ -90,7 +90,7 @@ Web Root: /var/www/html
 
 <img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_4.png" width=70% height=70%>
 
-3.3 Enumerate The Configuration File
+3.3 Enumerate The Wordpress Configuration File
 
 <img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_3.png" width=40% height=40%>
 
@@ -100,11 +100,11 @@ Credentials Found - root:R@v3nSecurity
 
 Command: mysql -uroot -pR@v3nSecurity
 
-![MySQL_1.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/a95ed68307494f59b9983beea29c21d1.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_1.png" width=50% height=50%>
 
 3.5 Enumerate The Wordpress Database
 
-![MySQL_2.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/d2aaa38436664b3ab253f6599d3eb0d5.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_2.png" width=50% height=50%>
 
 Hashes Found:
 
@@ -116,19 +116,19 @@ steven:$P$BkJVD9jsxx/loJoqNsURgHiaB23j7W/
 
 Location: Wordpress Database -> Wordpress Posts Table
 
-![Flag_3.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/649cb8d04c7f4f57a2159641c08a8c75.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_3.png" width=50% height=50%>
 
 3.6 Crack Stevens Password Hash Using John The Ripper
 
 Command: john --wordlist /usr/share/wordlists/rockyou.txt hashes.txt
 
-![John_1.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/8afab7a6979746e48178477bbc3a7cbf.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/John_1.png" width=50% height=50%>
 
 Credentials Found - steven:pink84
 
 3.7 Log Into The Machine Using The Found Credentials
 
-![John_2.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/8727e03a5d6947bf846804225ccadf6b.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/John_2.png" width=50% height=50%>
 
 **4. Local Enumeration**
 
