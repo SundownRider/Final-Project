@@ -70,7 +70,7 @@ Enumeration Summary
 
 Credentials - michael:michael
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=60% height=60%>
 
 **Flag 1**
 
