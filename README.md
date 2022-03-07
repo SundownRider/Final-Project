@@ -87,7 +87,7 @@ Kali Linux
 ELK
 
 - **Operating System**: Linux
-- **Purpose**: Collects security and access logs from Target 1 and Target 2
+- **Purpose**: Collects security and access logs from Target 1
 - **IP Address**: 192.168.1.100
 
 Capstone
