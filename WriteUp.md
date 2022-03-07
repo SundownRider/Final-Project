@@ -6,7 +6,7 @@
 
 Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
-![Red_1.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/11faf0063d4b45308141a63a12eb9bca.png)
+<src img= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_1.png" width=50% height=50%>
 
 **2. Enumeration**
 
