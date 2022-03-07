@@ -14,11 +14,7 @@ Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
 2.1.1 Enumerating The SSH Package Version
 
-![Red_3.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/de827ed25c3341b899612c7fcd239975.png)
-
-2.1.2 Enumerating The SSH Key Fingerprint
-
-![Red_2.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/76888bde077946a9a4686513c17b309e.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_3.png" width=50% height=50%>
 
 2.2 Enumerating HTTP (Port 80)
 
@@ -26,19 +22,19 @@ Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
 Command: dirb http://192.168.1.110
 
-![Red_4.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/c0ee8a91870f4e17b0569c7859107c3e.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_4.png" width=50% height=50%>
 
 2.2.2 Enumerating Wordpress Files And Version
 
 Command: wpscan --url http://192.168.1.110/wordpress
 
-![Red_8.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/a495f3387dfc45aa824344bdb1fcb1ef.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_7.png" width=50% height=50%>
 
 2.2.3 Enumerating Wordpress Users
 
 Command: wpscan [http://192.168.1.110/wordpress/](http://192.168.1.110) --enumerate u
 
-![Red_9.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/90315a92b0bf451ea8e6ccad57c13a2c.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_9.png" width=50% height=50%>
 
 2.3 Enumerating NetBIOS (Port 139)
 
@@ -46,7 +42,7 @@ Command: wpscan [http://192.168.1.110/wordpress/](http://192.168.1.110) --enumer
 
 Command: nbtscan 192.168.1.110
 
-![Red_5.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/f2dab635295a43e391a71cc863b3aa18.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_5.png" width=50% height=50%>
 
 2.4 Enumerating SMB (Port 445)
 
