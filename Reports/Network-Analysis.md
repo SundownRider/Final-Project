@@ -94,3 +94,6 @@ Your task is to isolate torrent traffic and answer the following questions:
 **Hostname:** BLANCO-DESKTOP
 
 **MAC Address:** 00:16:17:18:66:c8
+
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Network-Analysis/Wireshark_7.png" width=60% height=60%>
+
