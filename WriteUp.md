@@ -76,23 +76,23 @@ Credentials - michael:michael
 
 Location: /var/www/html/service.html
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_1.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_1.png" width=30% height=30%>
 
 **Flag 2**
 
 Location: /var/www
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_2.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_2.png" width=30% height=30%>
 
 3.2 Enumerate The Apache Web Root
 
 Web Root: /var/www/html
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=60% height=60%>
 
 3.3 Enumerate The Configuration File
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=60% height=60%>
 
 Credentials Found - root:R@v3nSecurity
 
