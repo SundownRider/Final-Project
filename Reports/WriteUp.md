@@ -104,7 +104,7 @@ Command: mysql -uroot -pR@v3nSecurity
 
 3.5 Enumerate The Wordpress Database
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_2.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_2.png" width=60% height=60%>
 
 Hashes Found:
 
@@ -116,13 +116,13 @@ steven:$P$BkJVD9jsxx/loJoqNsURgHiaB23j7W/
 
 Location: Wordpress Database -> Wordpress Posts Table
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_3.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_3.png" width=30% height=30%>
 
 3.6 Crack Stevens Password Hash Using John The Ripper
 
 Command: john --wordlist /usr/share/wordlists/rockyou.txt hashes.txt
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/John_1.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/John_1.png" width=30% height=30%>
 
 Credentials Found - steven:pink84
 
