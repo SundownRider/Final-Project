@@ -84,15 +84,15 @@ Location: /var/www
 
 <img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_2.png" width=30% height=30%>
 
-3.2 Enumerate The Apache Web Root
+3.2 Enumerate The Wordpress Directory In The Apache Web Root
 
 Web Root: /var/www/html
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=60% height=60%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_4.png" width=60% height=60%>
 
 3.3 Enumerate The Configuration File
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=60% height=60%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/MySQL_3.png" width=60% height=60%>
 
 Credentials Found - root:R@v3nSecurity
 
