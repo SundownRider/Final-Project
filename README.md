@@ -81,7 +81,7 @@ The following machines were identified on the network:
 Kali Linux
 
 - **Operating System**: Kali Linux
-- **Purpose**: Designed to conduct a penetration test against Target 1 and Target 2
+- **Purpose**: Designed to conduct a penetration test against Target 1
 - **IP Address**: 192.168.1.90
 
 ELK
