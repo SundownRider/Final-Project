@@ -42,7 +42,6 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 - Target 1
     - Flag 1: b9bbcb33e11b80be759c4e844862482d
-    <img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_1.png" width=25% height=25%>
         - Flag 1 Location: /var/www/html/service.html
         - Exploit Method: Logging Into The Machine Using Weak Login Credentials (michael:michael)
         - CWE-521: Weak Passwords Requirements
