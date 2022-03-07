@@ -53,13 +53,13 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
         - CWE-732: Incorrect Permission Assignment For Critical Resource
         - Command: find / -type f -iname *flag*
         
-    - Flag 3:
+    - Flag 3: afc01ab56b50591e7dccf93122770cd2
         - Flag 3 Location: MySQL Database -> Wordpress Database -> Wordpress Posts Table
         - Exploit: Accessing The Database
         - CWE-522: Insufficiently Protected Credentials
         - Command: cat /var/www/html/wordpress/config.php (Database Credentials - root:R@v3nSecurity)
         
-    - Flag 4:
+    - Flag 4: 715dea6c055b9fe3337544932f2941ce
         - Flag 4 Location: /root
         - Exploit: Gaining Root Access By Spawning A System Shell Using Sudo And Python
         - CWE-250: Execution With Unnecessary Privileges
