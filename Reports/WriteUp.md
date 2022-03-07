@@ -6,7 +6,7 @@
 
 Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_1.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_1.png" width=50% height=50%>
 
 **2. Enumeration**
 
@@ -14,7 +14,7 @@ Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
 2.1.1 Enumerating The SSH Package Version
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_3.png" width=30% height=30%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_3.png" width=30% height=30%>
 
 2.2 Enumerating HTTP (Port 80)
 
@@ -22,19 +22,19 @@ Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
 Command: dirb http://192.168.1.110
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_4.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_4.png" width=50% height=50%>
 
 2.2.2 Enumerating Wordpress Files And Version
 
 Command: wpscan --url http://192.168.1.110/wordpress
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_8.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_8.png" width=50% height=50%>
 
 2.2.3 Enumerating Wordpress Users
 
 Command: wpscan [http://192.168.1.110/wordpress/](http://192.168.1.110) --enumerate u
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_9.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_9.png" width=50% height=50%>
 
 2.3 Enumerating NetBIOS (Port 139)
 
@@ -42,13 +42,13 @@ Command: wpscan [http://192.168.1.110/wordpress/](http://192.168.1.110) --enumer
 
 Command: nbtscan 192.168.1.110
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_5.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_5.png" width=50% height=50%>
 
 2.4 Enumerating SMB (Port 445)
 
 2.4.1 Enumerating SMB Shares
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_6.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_6.png" width=50% height=50%>
 
 Enumeration Summary
 
@@ -70,19 +70,19 @@ Enumeration Summary
 
 Credentials - michael:michael
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=60% height=60%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_10.png" width=60% height=60%>
 
 **Flag 1**
 
 Location: /var/www/html/service.html
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_1.png" width=30% height=30%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_1.png" width=30% height=30%>
 
 **Flag 2**
 
 Location: /var/www
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_2.png" width=30% height=30%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Flag_2.png" width=30% height=30%>
 
 3.2 Enumerate The Apache Web Root
 
