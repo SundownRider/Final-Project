@@ -46,16 +46,19 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
         - Exploit Method: Logging Into The Machine Using Weak Login Credentials (michael:michael)
         - CWE-521: Weak Passwords Requirements
         - Command: ssh michael@192.168.1.110
+        
     - Flag 2: fc3fd58dcdad9ab23faca6e9a36e581c
         - Flag 2 Location: /var/www/flag2.txt
         - Exploit Method: Navigating To The Directory Prior To The Apache Web Root
         - CWE-732: Incorrect Permission Assignment For Critical Resource
         - Command: find / -type f -iname *flag*
+        
     - Flag 3:
         - Flag 3 Location: MySQL Database -> Wordpress Database -> Wordpress Posts Table
         - Exploit: Accessing The Database
         - CWE-522: Insufficiently Protected Credentials
         - Command: cat /var/www/html/wordpress/config.php (Database Credentials - root:R@v3nSecurity)
+        
     - Flag 4:
         - Flag 4 Location: /root
         - Exploit: Gaining Root Access By Spawning A System Shell Using Sudo And Python
