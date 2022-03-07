@@ -17,6 +17,8 @@ You must inspect your traffic capture to answer the following questions:
 
 **Answer:** DESKTOP-86J4BX.frank-n-ted.com (10.6.12.157)
 
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Network-Analysis/Wireshark_1.png" width=50% height=50%>
+
 2. What is the IP address of the Domain Controller (DC) of the AD network?
 
 **Answer:** Frank-n-Ted-DC.frank-n-ted.com (10.6.12.12)
