@@ -14,7 +14,7 @@ Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
 2.1.1 Enumerating The SSH Package Version
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_3.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_3.png" width=30% height=30%>
 
 2.2 Enumerating HTTP (Port 80)
 
