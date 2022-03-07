@@ -60,6 +60,8 @@ Inspect your traffic to answer the following questions:
 
 **MAC address:** 00:59:07:b0:63:a4
 
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Network-Analysis/Wireshark_4.png" width=60% height=60%>
+
 2. What is the username of the Windows user whose computer is infected?
 
 **Username:** matthijs.devries
