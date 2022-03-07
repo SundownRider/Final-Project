@@ -10,7 +10,7 @@
 
 ### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/OffensiveTemplate.md#exposed-services)Exposed Services
 
-Nmap scan results for each machine reveal the below services and OS details:
+Nmap scan results for the Target 1 machine reveal the below services and OS details:
 
 Nmap Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
