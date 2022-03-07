@@ -12,7 +12,7 @@
 
 The following machines were identified on the network:
 
-<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/Final_Project_Network.png" width=50% height=50%>
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue-Team/Final_Project_Network.png" width=50% height=50%>
 
 Kali Linux
 
