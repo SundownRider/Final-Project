@@ -76,6 +76,8 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 The following machines were identified on the network:
 
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Blue%20Team/Final_Project_Network.png" width=80% height=80%>
+
 Kali Linux
 
 - **Operating System**: Kali Linux
