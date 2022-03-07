@@ -60,4 +60,90 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
         - Flag 4 Location: /root
         - Exploit: Gaining Root Access By Spawning A System Shell Using Sudo And Python
         - CWE-250: Execution With Unnecessary Privileges
-        - Command: sudo python -c 'import os; os.spawn("/bin/bash")'
+        - Command: sudo python -c 'import os; os.spawn("/bin/bash")
+
+# Blue Team: Summary of Operations
+
+## [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#table-of-contents)Table of Contents
+
+- Network Topology
+- Description of Targets
+- Monitoring the Targets
+- Patterns of Traffic & Behavior
+- Suggestions for Going Further
+
+### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#network-topology)Network Topology
+
+The following machines were identified on the network:
+
+Kali Linux
+
+- **Operating System**: Kali Linux
+- **Purpose**: Designed to conduct a penetration test against Target 1 and Target 2
+- **IP Address**: 192.168.1.90
+
+ELK
+
+- **Operating System**: Linux
+- **Purpose**: Collects security and access logs from Target 1 and Target 2
+- **IP Address**: 192.168.1.100
+
+Capstone
+
+- **Operating System**: Linux
+- **Purpose**: A vulnerable VM that can be used to test security alerts
+- **IP Address**: 192.168.1.105
+
+Target 1
+
+- **Operating System**: Linux (Ubuntu)
+- **Purpose**: Vulnerable VM Running Wordpress
+- **IP Address**: 192.168.1.110
+
+Target 2
+
+- **Operating System**: Linux (Ubuntu)
+- **Purpose**: Vulnerable VM Running Wordpress
+- **IP Address**: 192.168.1.115
+
+### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#description-of-targets)Description of Targets
+
+Target 1 (192.168.1.110)
+
+Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers. As such, the following alerts have been implemented:
+
+### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#monitoring-the-targets)Monitoring the Targets
+
+Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
+
+#### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#name-of-alert-1)Excessive HTTP Errors
+
+Excessive HTTP Errors is implemented as follows:
+
+- **Metric**: HTTP Errors
+- **Threshold**: Is Above 400
+- **Vulnerability Mitigated**: Directory Brute Forcing
+- **Reliability**: High Reliability
+
+![HTTP_Errors.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/053c197000e4464ca133fbae8b98da51.png)
+
+#### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#name-of-alert-2)HTTP Request Size Monitor
+
+HTTP Request Size Monitor is implemented as follows:
+
+- **Metric**: HTTP Request Size
+- **Threshold**: Is Above 3500
+- **Vulnerability Mitigated**: HTTP Request Smuggling
+- **Reliability**: Medium Reliability
+
+![HTTP_Size.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/c28443daa3a243379affeec47e45d1c8.png)
+
+#### [](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-CYBER-PT-09-2021-U-LOL/blob/master/1-Lesson-Plans/24-Final-Project/Resources/DefensiveTemplate.md#name-of-alert-3)CPU Usage Monitor
+
+CPU Usage Monitor is implemented as follows:
+
+- **Metric**: CPU Usage
+- **Threshold**: Is Above 0.5
+- **Vulnerability Mitigated**: TODO
+- **Reliability**: Medium Reliability
+
