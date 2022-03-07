@@ -29,9 +29,13 @@ You must inspect your traffic capture to answer the following questions:
 
 **Answer:** june11.dll
 
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Network-Analysis/Wireshark_2.png" width=60% height=60%>
+
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). What kind of malware is this classified as?
 
 **Answer:** Trojan
+
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Network-Analysis/Wireshark_3.png" width=60% height=60%>
 
 ## Vulnerable Windows Machines
 
