@@ -28,7 +28,7 @@ Command: dirb http://192.168.1.110
 
 Command: wpscan --url http://192.168.1.110/wordpress
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_7.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_8.png" width=50% height=50%>
 
 2.2.3 Enumerating Wordpress Users
 
@@ -48,7 +48,7 @@ Command: nbtscan 192.168.1.110
 
 2.4.1 Enumerating SMB Shares
 
-![Red_6.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/4503e3b2521b49d29e7bde803285e47d.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_6.png" width=50% height=50%>
 
 Enumeration Summary
 
@@ -70,29 +70,29 @@ Enumeration Summary
 
 Credentials - michael:michael
 
-![Red_10.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/cc9a3ad16229476b899021a3afa113b9.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=50% height=50%>
 
 **Flag 1**
 
-Location: /var/www/html
+Location: /var/www/html/service.html
 
-![Flag_1.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/e44ca6edc19b4a50b67088fb788acfb2.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_1.png" width=50% height=50%>
 
 **Flag 2**
 
 Location: /var/www
 
-![Flag_2.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/ec75782c607844e38fce6d7e09594d93.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_2.png" width=50% height=50%>
 
 3.2 Enumerate The Apache Web Root
 
 Web Root: /var/www/html
 
-![Flag_4.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/c34bd380a43a4ae8a42f1724cbb9b79f.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=50% height=50%>
 
 3.3 Enumerate The Configuration File
 
-![Flag_3.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/c6ac828335fa49ccbfc6b741c7ec0fc7.png)
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Red_10.png" width=50% height=50%>
 
 Credentials Found - root:R@v3nSecurity
 
