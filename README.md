@@ -14,7 +14,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 Nmap Command: nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
-![Red_1.png](file:///C:/Users/drewa/.config/joplin-desktop/resources/fb71352ed7364f9aa39be3b8f33e095a.png)
+(file:///Images/Red Team/Red_1.png)
 
 This scan identifies the services below as potential points of entry:
 
