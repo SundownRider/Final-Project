@@ -47,7 +47,8 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
         - CWE-521: Weak Passwords Requirements
         - Command: ssh michael@192.168.1.110
         
-        <img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_1.png" width=50% height=50%>
+       
+       <img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Red%20Team/Flag_1.png" width=25% height=25%>
         
     - Flag 2: fc3fd58dcdad9ab23faca6e9a36e581c
         - Flag 2 Location: /var/www/flag2.txt
