@@ -66,9 +66,13 @@ Inspect your traffic to answer the following questions:
 
 **Username:** matthijs.devries
 
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Network-Analysis/Wireshark_5.png" width=60% height=60%>
+
 3. What are the IP addresses used in the actual infection traffic?
 
 **IP Address:** 185.243.115.84
+
+<img src="https://github.com/SundownRider/Final-Project/blob/main/Images/Network-Analysis/Wireshark_6.png" width=60% height=60%>
 
 ## Illegal Downloads
 
