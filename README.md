@@ -8,3 +8,8 @@ Network Topology
 
 <img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Blue-Team/Final_Project_Network.png" width=50% height=50%>
 
+Reports
+
+There are three seperate reports for this vulnerable network. These reports can be found below:
+
+<a href= "https://github.com/SundownRider/Final-Project/blob/main/Reports/Red-Team.md"> Red Team </a>
