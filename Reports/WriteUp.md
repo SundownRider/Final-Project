@@ -48,6 +48,8 @@ Command: nbtscan 192.168.1.110
 
 2.4.1 Enumerating SMB Shares
 
+Command: smbclient -L \\\\192.168.1.110\\
+
 <img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Red_6.png" width=50% height=50%>
 
 Enumeration Summary
