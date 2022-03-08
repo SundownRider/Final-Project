@@ -17,3 +17,7 @@ There are three seperate reports for this vulnerable network. These reports can 
 <a href= "https://github.com/SundownRider/Final-Project/blob/main/Reports/Blue-Team.md"> Blue Team </a>
 
 <a href= "https://github.com/SundownRider/Final-Project/blob/main/Reports/Network-Analysis.md"> Network Analysis </a>
+
+In addition to these report files there is also a writeup of the methodology that was used to root the Target 1 machine. This writeup can be found below:
+
+<a href= "https://github.com/SundownRider/Final-Project/blob/main/Reports/WriteUp.md"> Target 1 Penetration Test Methodology </a>
