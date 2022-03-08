@@ -58,7 +58,7 @@ Enumeration Summary
 
 3. Wordpress Version - Wordpress 4.8.18
 
-4. Wordpress Users - Michael, Steven
+4. Wordpress Users - michael, steven
 
 5. NetBios Hostname - TARGET1
 
@@ -66,7 +66,13 @@ Enumeration Summary
 
 **3. Exploitation**
 
-3.1 Log Into The Machine Using The Weak Credentials For The User Michael
+3.1 Brute Force The Login Credentials For The Michael User
+
+Command: hydra -l michael -p /usr/share/wordliosts/rockyou.txt ssh://192.168.1.110
+
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Hydra_1.png" width=50% height=50%>
+
+3.2 Log Into The Machine Using The Weak Credentials For The User Michael
 
 Credentials - michael:michael
 
