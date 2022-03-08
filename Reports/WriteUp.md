@@ -66,11 +66,11 @@ Enumeration Summary
 
 **3. Exploitation**
 
-3.1 Brute Force The Login Credentials For The Michael User
+3.1 Brute Force The SSH Password For The User Michael
 
 Command: hydra -l michael -p /usr/share/wordliosts/rockyou.txt ssh://192.168.1.110
 
-<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Hydra_1.png" width=50% height=50%>
+<img src= "https://github.com/SundownRider/Final-Project/blob/main/Images/Red-Team/Hydra_1.png" width=75% height=75%>
 
 3.2 Log Into The Machine Using The Weak Credentials For The User Michael
 
