@@ -2,7 +2,7 @@
 
 Overview
 
-This repository showcases the assessment of a vulnerable computer network from the perspectives of both the red team and the blue team. The network consists of four machines including a vulnerable Linux machine running wordpress (Target 1), a Kali Linux machine used to conduct a penetration test against the vulnerable machine (Kali), an ELK machine desgined to capture attack logs from the vulnerable machine (ELK), and the machine designed for testing Kibana alerts (Capstone).
+This repository showcases the assessment of a vulnerable computer network from the perspectives of both the red team and the blue team. The network consists of four machines including a vulnerable Linux machine running wordpress (Target 1), a Kali Linux machine (Kali) used to conduct a penetration test against the vulnerable wordpress machine, an ELK machine (ELK) desgined to capture attack logs from the vulnerable machine, and the machine designed for testing Kibana alerts (Capstone).
 
 Network Topology
 
